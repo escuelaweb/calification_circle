@@ -11,3 +11,9 @@ Soporta parametros como:
 * Color del circulo
 * Ancho de la linea del circulo
 * Tamano y color de la fuente a usar
+
+(En desarrollo)
+
+Autor: [highercomve](http://higher.com.ve)
+
+licencia MIT
