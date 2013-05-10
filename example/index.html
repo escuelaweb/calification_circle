@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calification Circles</title>
+  <link rel="stylesheet" href="http://escuelaweb.github.io/octagon-css/stylesheets/octagon.css">
+  <link rel="stylesheet" href="css/circles.css">
+</head>
+<body>
+  
+  <header class="container">
+    <h1 class="mt20 mb40">Circulos</h1>
+  </header>
+
+  <section class="container">
+    <h4>Ejemplos</h4>
+    <div class="row">
+      <article class="grid4">
+        <canvas id="test" width="200" height="200" data-font="18px ubuntu" data-actual="90" data-maximun="100" data-width="20" data-color="#6F8EB2" class="calification-circle">
+          This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas>
+      </article>
+      <article class="grid4">
+        <canvas width="100" height="100" data-actual="50" data-font="12px ubuntu" data-maximun="100" data-width="5" data-color="#F65DB7" class="calification-circle">
+          This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas>
+      </article>
+      <article class="grid4">
+        <canvas width="300" height="300" data-actual="9.5" data-maximun="10" data-width="10"  data-color="#D6DC4A" class="calification-circle">
+          This text is displayed if your browser does not support HTML5 Canvas.
+        </canvas>
+      </article>
+    </div>
+  </section>
+
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="../lib/circles.js"></script>
+  <script>
+  $(function() {
+    $(".calification-circle").calificationCircle();
+  });
+  </script>
+</body>
+</html>
