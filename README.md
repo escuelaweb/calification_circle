@@ -11,6 +11,8 @@ Soporta parametros como:
 * Color del circulo
 * Ancho de la linea del circulo
 * Tamano y color de la fuente a usar
+* Background Color
+* Color del texto
 
 (En desarrollo)
 
